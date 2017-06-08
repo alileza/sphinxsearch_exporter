@@ -34,7 +34,7 @@ function print_metric($namespace, $key, $value, $desc = ""){
       $value = 0.0;
     }
 
-    echo ($namespace."_".$key." ". floatval($value)."\r\n");
+    echo ($namespace."_".$key." ". floatval($value)."\n");
 }
 header('Content-Type: text/plain');
 
